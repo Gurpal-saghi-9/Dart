@@ -2,12 +2,11 @@
 import 'dart:io';
 import 'animal.dart';
 
-import 'package:practice/animal.dart';
+
 
 
 
 void main(){
-
-  Cat cat = Cat("cat");
+  var cat = Cat("cat");
   cat.sound();
 }
